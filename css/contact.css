@@ -1,0 +1,96 @@
+.contact-image{
+	height: 50%;
+	width: 100%;
+}
+.contact-image img{
+	height: 100%;
+	width: 100%;
+}
+.contact-text{
+	padding: 15px;
+}
+.contact-text h1{
+	font-size: 40px;
+	font-weight: bolder;
+}
+.contact-detail{
+	padding: 15px;
+}
+.contact-detail h1{
+	font-weight: bolder;
+	font-size: 26px;
+}
+.contact-detail span{
+	color: #ff1744;
+	font-weight: bolder;
+}
+.contact{
+	height: 100%;
+	width: 100%;
+	display: inline-flex;
+}
+.contact-form{
+	padding: 20px;
+}
+.contact .row{
+	margin: 0,0,0,200px;
+	padding: 20px;
+	box-shadow: 5px 10px 20px -10px rgba(0,0,0,0.6);
+}
+.contact .row input{
+	width: 250px;
+	height: 25px;
+	padding: 10px;
+	background-color:rgba(0,0,0,0.1);
+	color: grey;
+	border: none;
+	outline: none;
+}
+.contact .row textarea{
+	outline: none;
+	margin-left: 15px;
+	width: 530px;
+	padding: 10px;
+	background-color: rgba(0,0,0,0.1);
+	color: grey;
+	border: none;
+}
+.contact .row input:focus{
+	border:1px solid orange;
+}
+.contact .row textarea:focus{
+	border:1px solid orange;
+}
+.contact .row button{
+	outline: none;
+	height: 30px;
+	width: 200px;
+	margin-left: 15px;
+	margin-top: 20px;
+	background-color: orange;
+	color: white;
+	border: none;
+}
+#adres{
+	margin: 20px 0 0 200px;
+}
+@media only screen and (max-width: 1140px){
+	.contact{
+		display: inline-block;
+		margin: 20px 0 0 0px;
+	}
+	.contact .row textarea{
+		width: 330px;
+	}
+	.contact .row input{
+		width: 330px;
+		height: 30px;
+	}
+	#adres{
+		margin: 20px 0 0 0;
+	}
+	.contact .row{
+		padding: 0 0 20px 0;
+	}
+	
+}
